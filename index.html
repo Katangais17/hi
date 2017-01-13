@@ -1,12 +1,441 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head>
-  
-  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <title>Git</title>
 
-  
-</head><body>
-<br>
+		
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
-<br>
-</body></html>
+
+		
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+		
+  <link href="style.css" rel="stylesheet">
+  <title>Overwatch</title>
+
+
+		
+
+	</head><body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+        </nav>
+<div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only">Toggle navigation</span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                    <span class="icon-bar"></span>
+
+                </button>
+
+                <a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/Overwatch.png" alt="logo d'Overwatch" height="45" width="45"></a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<form id="signin" class="navbar-form navbar-right" role="form" method="post" name="acces" action="connexion.php">
+
+					<div class="input-group">
+
+                        <span class="input-group-addon"></span>
+
+                        <input id="username" class="form-control" name="user" value="" placeholder="Nom d'utilisateur" type="text">                                        
+
+                    </div>
+
+
+
+                    <div class="input-group">
+
+                        <span class="input-group-addon"></span>
+
+                        <input id="password" class="form-control" name="pass" value="" placeholder="Mot de passe" type="password">                                        
+
+                    </div>
+
+					<button type="submit" name="submit" class="btn btn-primary">Connexion</button>
+
+                </form>
+
+						
+
+                <ul class="nav navbar-nav navbar-left">
+
+						<li><a href="#jeu">Jeu</a></li>
+
+					<li><a href="#hero">Héros</a></li>
+
+					<li><a href="#">Média</a></li>
+
+					<li><a href="#">Statistiques</a></li>
+
+					<li><a href="inscriptions.html">S'inscrire</a></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+	
+
+	
+
+		
+
+		
+<div class="container-fluid">
+
+				<img class="img-responsive" src="images/Overwatch-Computer-Wallpaper.jpg">
+
+		</div>
+
+
+		
+
+		
+<div class="container">
+
+			<h1 id="jeu">LE JEU</h1>
+
+			<h2>CHOISISSEZ VOTRE RÔLE</h2>
+
+			<div class="row">
+
+				 <div class="col-sm-6 col-md-3">
+
+					<div class="thumbnail">
+
+						<img class="img-responsive img-rounded" src="images/attaque.jpg" alt="attaque">
+
+						<div class="caption">
+
+							<h3>ATTAQUE</h3>
+
+							<p>Les
+héros offensifs infligent des dégâts pour le compte de leur équipe.
+Leur objectif ? Traquer, affronter et annihiler l&#8217;ennemi.</p><p>
+
+						</p></div>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+
+					<div class="thumbnail">
+
+						<img class="img-responsive img-rounded" src="images/defense.jpg" alt="defense">
+
+
+
+						<div class="caption">
+
+							<h3>DEFENSE</h3>
+
+							<p>Les
+héros défensifs contrôlent le champ de bataille, interrompent les
+attaques ennemies et renforcent certaines positions. En tant que héros
+défensif, votre rôle est d&#8217;empêcher la progression de l&#8217;équipe adverse.</p><p>
+
+						</p></div>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+
+					<div class="thumbnail">
+
+						<img class="img-responsive img-rounded" src="images/tank.jpg" alt="tank">
+
+						<div class="caption">
+
+							<h3>TANK</h3>
+
+							<p>Les
+tanks sont là pour encaisser les dégâts et neutraliser des positions
+stratégiques, qu&#8217;il s&#8217;agisse d&#8217;ennemis groupés ou de points
+d&#8217;étranglement. Si vous incarnez un tank, c&#8217;est à vous de mener la
+charge.</p><p>
+
+						</p></div>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+
+					<div class="thumbnail">
+
+						<img class="img-responsive img-rounded" src="images/soutien.jpg" alt="soutien">
+
+						<div class="caption">
+
+							<h3>SOUTIEN</h3>
+
+							<p>Les
+héros de soutien protègent et renforcent leurs alliés ; ils les
+soignent et leur procurent des boucliers, augmentent leurs dégâts et
+leur vitesse, en plus de posséder des capacités utilitaires cruciales.
+Votre rôle de soutien vous rend indispensable à la survie de votre
+équipe.</p><p>
+
+						</p></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+
+			<h2 class="lesbases">OVERWATCH: LES BASES DU JEU</h2>
+
+			<img class="img-responsive img-circle reinhart" src="images/reinhart.png" alt="reinhart">
+
+			<h3>CAPACITÉS</h3>
+
+			<p>Les
+capacités vous permettent d&#8217;utiliser les pouvoirs et les équipements
+uniques des héros d&#8217;Overwatch pour terrasser vos adversaires, protéger
+vos équipiers et vous déplacer à travers la carte. Elles sont
+essentielles pour remporter la victoire.</p>
+
+			<p>Vous
+utiliserez le plus souvent votre arme principale (PC : clic gauche,
+PlayStation 4 : R2, Xbox One : RT). Qu&#8217;il s&#8217;agisse d&#8217;une arme à courte
+ou à longue portée, capable de geler vos ennemis ou de lancer des
+projectiles, pas besoin de chercher des munitions ! Il vous suffit de
+recharger (PC : R, PlayStation 4 : carré, Xbox One : X) pour continuer
+à faire feu ! Certaines armes disposent d&#8217;un tir secondaire (PC : clic
+droit, PlayStation 4 : L2, Xbox One : LT) en complément de leur tir
+principal.</p>
+
+			<p>Certains
+héros disposent également d&#8217;un ensemble de capacités de déplacement et
+de soutien : tourelles sentinelles photoformées, beats de vitesse
+supersonique et téléportation sur de courtes distances, pour n&#8217;en citer
+que quelques-unes. Certaines capacités sont soumises à un temps de
+recharge ; vous devrez patienter quelques instants entre deux
+utilisations.</p>
+
+			
+
+			<h3>COUP EN MÊLÉE</h3>
+
+			<p>Chaque
+héros peut effectuer une attaque en mêlée (PC : W, PlayStation 4/Xbox
+One : stick droit). Il s&#8217;agit d&#8217;un coup rapide à courte portée qui ne
+consomme pas de munitions. Utilisez-le pour achever des adversaires
+affaiblis ou quand vous devez recharger.</p>
+
+			
+
+			<h3>CAPACITÉS ULTIMES</h3>
+
+			<p>Les
+capacités ultimes (PC : A, PlayStation 4 : triangle, Xbox One : Y) sont
+puissantes et peuvent renverser le cours d&#8217;une partie. Elles se
+rechargent automatiquement avec le temps, mais vous pouvez accélérer
+leur recharge en subissant ou en infligeant des dégâts. Tant que vous
+ne changez pas de héros, le niveau de charge de votre capacité ultime
+est conservé même si vous mourez.</p>
+
+			
+
+			<h1 id="hero">LES HÉROS</h1>
+
+			<h2>ATTAQUE</h2>
+
+			<div class="row">
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/genji.png" alt="genji">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/reaper.png" alt="reaper">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/pharah.png" alt="pharah">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/tracer.png" alt="tracer">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/soldier76.png" alt="soldier76">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/mccree.png" alt="mccree">
+
+				</div>
+
+			</div>
+
+			
+
+			<h2>DEFENSE</h2>
+
+			<div class="row">
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/bastion.png" alt="bastion">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/hanzo.png" alt="hanzo">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/junkrat.png" alt="junkrat">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/mei.png" alt="mei">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/torbjorn.png" alt="torbjorn">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/widowmaker.png" alt="widowmaker">
+
+				</div>
+
+			</div>
+
+			<h2>TANK</h2>
+
+			<div class="row">
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1">
+
+					<img class="img-responsive" src="images/dva.png" alt="dva">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/reinhart2.png" alt="reinhart2">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/roadhog.png" alt="roadhog">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/winston.png" alt="winston">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/zarya.png" alt="zarya">
+
+				</div>
+
+			</div>
+
+			<h2>SOUTIEN</h2>
+
+			<div class="row">
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1">
+
+					<img class="img-responsive" src="images/ana.png" alt="ana">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/lucio.png" alt="lucio">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/mercy.png" alt="mercy">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/symmetra.png" alt="symmetra">
+
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+					<img class="img-responsive" src="images/zenyatta.png" alt="zenyatta">
+
+				</div>
+
+			</div>
+
+			
+
+			
+
+		</div>
+
+
+		
+<script src="js/jquery-3.1.0.js"></script>
+
+		
+<script src="js/bootstrap.min.js"></script>
+
+
+
+	</body></html>
